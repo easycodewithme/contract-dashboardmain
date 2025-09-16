@@ -1,0 +1,42 @@
+[
+  {
+    "id": "c1",
+    "name": "MSA 2025",
+    "parties": "Microsoft & ABC Corp",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High"
+  },
+  {
+    "id": "c3",
+    "name": "Software License Agreement",
+    "parties": "Adobe & ABC Corp",
+    "expiry": "2024-06-15",
+    "status": "Expired",
+    "risk": "Low"
+  },
+  {
+    "id": "c4",
+    "name": "Cloud Services Contract",
+    "parties": "AWS & ABC Corp",
+    "expiry": "2026-03-20",
+    "status": "Active",
+    "risk": "Low"
+  },
+  {
+    "id": "c5",
+    "name": "Consulting Agreement",
+    "parties": "Deloitte & ABC Corp",
+    "expiry": "2025-08-30",
+    "status": "Active",
+    "risk": "Medium"
+  }
+]
