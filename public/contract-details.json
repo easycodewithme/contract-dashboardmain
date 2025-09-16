@@ -1,0 +1,62 @@
+{
+  "c1": {
+    "id": "c1",
+    "name": "MSA 2025",
+    "parties": "Microsoft & ABC Corp",
+    "start": "2023-01-01",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      { "title": "Termination", "summary": "90 days notice period.", "confidence": 0.82 },
+      { "title": "Liability Cap", "summary": "12 months' fees limit.", "confidence": 0.87 },
+      { "title": "Data Protection", "summary": "GDPR compliance required.", "confidence": 0.91 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "Liability cap excludes data breach costs." },
+      { "risk": "Medium", "message": "Renewal auto-renews unless cancelled 60 days before expiry." },
+      { "risk": "Low", "message": "Standard termination clause with reasonable notice period." }
+    ],
+    "evidence": [
+      { "source": "Section 12.2", "snippet": "Total liability limited to 12 months' fees.", "relevance": 0.91 },
+      {
+        "source": "Section 8.1",
+        "snippet": "Either party may terminate with 90 days written notice.",
+        "relevance": 0.85
+      },
+      { "source": "Section 15.3", "snippet": "Data processing must comply with GDPR requirements.", "relevance": 0.88 }
+    ]
+  },
+  "c2": {
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "start": "2022-10-10",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      { "title": "Service Level", "summary": "99.9% uptime guarantee.", "confidence": 0.95 },
+      { "title": "Penalty Clause", "summary": "Service credits for downtime.", "confidence": 0.89 },
+      { "title": "Auto-Renewal", "summary": "Automatic 2-year renewal.", "confidence": 0.78 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "Auto-renewal clause may lock in unfavorable terms." },
+      { "risk": "High", "message": "Penalty calculations favor the vendor." },
+      { "risk": "Medium", "message": "SLA requirements may be difficult to monitor." }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3.1",
+        "snippet": "Service availability shall be 99.9% measured monthly.",
+        "relevance": 0.92
+      },
+      {
+        "source": "Section 11.2",
+        "snippet": "Agreement automatically renews for successive 2-year terms.",
+        "relevance": 0.87
+      },
+      { "source": "Section 4.3", "snippet": "Service credits limited to 10% of monthly fees.", "relevance": 0.83 }
+    ]
+  }
+}
